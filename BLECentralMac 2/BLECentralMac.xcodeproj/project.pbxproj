@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1472EEA123D771A9005EA481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472EEA023D771A9005EA481 /* AppDelegate.swift */; };
+		1472EEA323D771A9005EA481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1472EEA223D771A9005EA481 /* ViewController.swift */; };
+		1472EEA523D771A9005EA481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1472EEA423D771A9005EA481 /* Assets.xcassets */; };
+		1472EEA823D771A9005EA481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1472EEA623D771A9005EA481 /* Main.storyboard */; };
+		1472EEB223D7724A005EA481 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1472EEB123D7724A005EA481 /* CoreBluetooth.framework */; };
+		5E4B33D22416E7AD00A9E3B7 /* ecg.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5E4B33D12416E7AC00A9E3B7 /* ecg.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1472EE9D23D771A9005EA481 /* BLECentralMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLECentralMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1472EEA023D771A9005EA481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1472EEA223D771A9005EA481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1472EEA423D771A9005EA481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1472EEA723D771A9005EA481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1472EEA923D771A9005EA481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1472EEAA23D771A9005EA481 /* BLECentralMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BLECentralMac.entitlements; sourceTree = "<group>"; };
+		1472EEB123D7724A005EA481 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		5E4B33D12416E7AC00A9E3B7 /* ecg.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ecg.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1472EE9A23D771A9005EA481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1472EEB223D7724A005EA481 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1472EE9423D771A9005EA481 = {
+			isa = PBXGroup;
+			children = (
+				1472EE9F23D771A9005EA481 /* BLECentralMac */,
+				1472EE9E23D771A9005EA481 /* Products */,
+				1472EEB023D7724A005EA481 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1472EE9E23D771A9005EA481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1472EE9D23D771A9005EA481 /* BLECentralMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1472EE9F23D771A9005EA481 /* BLECentralMac */ = {
+			isa = PBXGroup;
+			children = (
+				1472EEA023D771A9005EA481 /* AppDelegate.swift */,
+				1472EEA223D771A9005EA481 /* ViewController.swift */,
+				1472EEA423D771A9005EA481 /* Assets.xcassets */,
+				1472EEA623D771A9005EA481 /* Main.storyboard */,
+				1472EEA923D771A9005EA481 /* Info.plist */,
+				1472EEAA23D771A9005EA481 /* BLECentralMac.entitlements */,
+				5E4B33D12416E7AC00A9E3B7 /* ecg.txt */,
+			);
+			path = BLECentralMac;
+			sourceTree = "<group>";
+		};
+		1472EEB023D7724A005EA481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1472EEB123D7724A005EA481 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1472EE9C23D771A9005EA481 /* BLECentralMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1472EEAD23D771A9005EA481 /* Build configuration list for PBXNativeTarget "BLECentralMac" */;
+			buildPhases = (
+				1472EE9923D771A9005EA481 /* Sources */,
+				1472EE9A23D771A9005EA481 /* Frameworks */,
+				1472EE9B23D771A9005EA481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLECentralMac;
+			productName = BLECentralMac;
+			productReference = 1472EE9D23D771A9005EA481 /* BLECentralMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1472EE9523D771A9005EA481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "RON LASSER";
+				TargetAttributes = {
+					1472EE9C23D771A9005EA481 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1472EE9823D771A9005EA481 /* Build configuration list for PBXProject "BLECentralMac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1472EE9423D771A9005EA481;
+			productRefGroup = 1472EE9E23D771A9005EA481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1472EE9C23D771A9005EA481 /* BLECentralMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1472EE9B23D771A9005EA481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4B33D22416E7AD00A9E3B7 /* ecg.txt in Resources */,
+				1472EEA523D771A9005EA481 /* Assets.xcassets in Resources */,
+				1472EEA823D771A9005EA481 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1472EE9923D771A9005EA481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1472EEA323D771A9005EA481 /* ViewController.swift in Sources */,
+				1472EEA123D771A9005EA481 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1472EEA623D771A9005EA481 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1472EEA723D771A9005EA481 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1472EEAB23D771A9005EA481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1472EEAC23D771A9005EA481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1472EEAE23D771A9005EA481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BLECentralMac/BLECentralMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BLECentralMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rlTufts.BLECentralMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1472EEAF23D771A9005EA481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BLECentralMac/BLECentralMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BLECentralMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rlTufts.BLECentralMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1472EE9823D771A9005EA481 /* Build configuration list for PBXProject "BLECentralMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1472EEAB23D771A9005EA481 /* Debug */,
+				1472EEAC23D771A9005EA481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1472EEAD23D771A9005EA481 /* Build configuration list for PBXNativeTarget "BLECentralMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1472EEAE23D771A9005EA481 /* Debug */,
+				1472EEAF23D771A9005EA481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1472EE9523D771A9005EA481 /* Project object */;
+}
